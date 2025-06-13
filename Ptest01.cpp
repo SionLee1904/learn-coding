@@ -92,7 +92,7 @@ double   my_list::get_score(string tname)
 void my_list::show_all_data()
 {
         node *p;
-
+       // int i =0;//
         for ( p = head; p != NULL; p = p->link)
                 cout << p->name << " : " << p->score << endl;
 
